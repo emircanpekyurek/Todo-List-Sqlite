@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_sort"
+        android:title="@string/sort">
+        <menu>
+            <item
+                android:id="@+id/item_sort_create_date"
+                android:title="@string/create_date" />
+            <item
+                android:id="@+id/item_sort_deadline"
+                android:title="@string/deadline" />
+            <item
+                android:id="@+id/item_sort_name"
+                android:title="@string/name" />
+            <item
+                android:id="@+id/item_sort_status"
+                android:title="@string/status" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_filter"
+        android:title="@string/filter">
+        <menu>
+
+            <item
+                android:id="@+id/item_filter_completed"
+                android:title="@string/completed" />
+            <item
+                android:id="@+id/item_filter_not"
+                android:title="@string/not" />
+            <item
+                android:id="@+id/item_filter_expired"
+                android:title="@string/expired" />
+            <item
+                android:id="@+id/item_filter_all"
+                android:title="@string/all" />
+        </menu>
+    </item>
+</menu>

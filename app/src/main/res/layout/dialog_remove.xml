@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:minWidth="@dimen/dialog_min_width"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_padding">
+
+    <TextView
+        style="@style/CustomDialogTitleStyle"
+        android:text="@string/do_you_want_to_delete" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            style="@style/CustomDialogButtonStyle"
+            android:text="@string/cancel" />
+
+        <TextView
+            android:id="@+id/tv_delete"
+            style="@style/CustomDialogButtonStyle"
+            android:layout_gravity="end"
+            android:text="@string/delete" />
+    </FrameLayout>
+
+</LinearLayout>

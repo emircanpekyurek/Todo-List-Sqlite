@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+
+
+    <string name="error">Error</string>
+    <string name="login_error">Mail address or password is incorrect</string>
+
+    <!--activity_login.xml-->
+    <string name="login">LOGIN</string>
+    <string name="mail">Mail</string>
+    <string name="password">Password</string>
+    <string name="signup">SIGN UP</string>
+
+    <string name="logout">Log out</string>
+
+    <!--Sign up texts-->
+    <string name="invalid_mail">Invalid Mail</string>
+    <string name="fail">Fail</string>
+    <string name="mail_is_used">Mail is used</string>
+    <string name="short_password">Password is too short</string>
+    <string name="short_mail">Password is too short</string>
+    <string name="successful_signup">Registration Successful</string>
+
+    <!--Login texts-->
+    <string name="successful_login">Login successful</string>
+    <string name="fail_login">Mail or password is incorrect</string>
+
+    <!--menu_todo_items.xml-->
+    <string name="create_date">Create date</string>
+    <string name="sort">Sort</string>
+    <string name="filter">Filter</string>
+    <string name="deadline">Deadline</string>
+    <string name="name">Name</string>
+    <string name="status">Status</string>
+    <string name="completed">Completed</string>
+    <string name="not_expired">Not Expired</string>
+    <string name="all">All</string>
+    <string name="not">Not</string>
+    <string name="expired">Expired</string>
+
+    <string name="insert_failed">Insert Failed</string>
+    <string name="deletion_failed">Deletion Failed</string>
+
+    <string name="to_do_list_name">To-do list name:</string>
+
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="fill_in_all_blanks">Fill in all blanks</string>
+
+    <string name="do_you_want_to_delete">Do you want to delete</string>
+
+    <string name="select_date_click">Select Date (Click)</string>
+
+    <string name="select_an_appropriate_date">Select an appropriate date</string>
+
+</resources>
